@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "Choose your Roblox region to reduce lag, improve Roblox connection, and enjoy smoother Roblox gameplay."
+  },
+  "name": {
+    "message": "RoRegion – Reduce Lag, Ping & Boost FPS: Roblox Region Selector"
+  },
+  "sidebarBadgeNew": {
+    "message": "New"
+  }
+}

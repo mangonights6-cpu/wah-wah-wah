@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "选择您的 Roblox 区域以减少延迟、改善 Roblox 连接并享受更流畅的 Roblox 游戏体验。"
+  },
+  "name": {
+    "message": "RoRegion – 减少延迟、Ping 并提升 FPS: Roblox 区域选择器"
+  },
+  "sidebarBadgeNew": {
+    "message": "新"
+  }
+}

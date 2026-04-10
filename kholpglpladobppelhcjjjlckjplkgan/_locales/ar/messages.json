@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "اختر منطقة Roblox الخاصة بك لتقليل التأخير وتحسين اتصال Roblox والاستمتاع بلعب Roblox أكثر سلاسة."
+  },
+  "name": {
+    "message": "RoRegion – قلل التأخير والبينغ وعزز FPS: محدد منطقة Roblox"
+  },
+  "sidebarBadgeNew": {
+    "message": "جديد"
+  }
+}

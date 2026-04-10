@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "랙을 줄이고, Roblox 연결을 개선하며, 더 부드러운 Roblox 게임플레이를 즐기기 위해 Roblox 지역을 선택하세요."
+  },
+  "name": {
+    "message": "RoRegion – 랙, 핑 줄이고 FPS 향상: Roblox 지역 선택"
+  },
+  "sidebarBadgeNew": {
+    "message": "새로운"
+  }
+}

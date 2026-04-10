@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "Lag'ı azaltmak, Roblox bağlantısını iyileştirmek ve daha akıcı Roblox oyunu deneyimlemek için Roblox bölgenizi seçin."
+  },
+  "name": {
+    "message": "RoRegion – Lag, Ping Azalt ve FPS Artır: Roblox Bölge Seçici"
+  },
+  "sidebarBadgeNew": {
+    "message": "Yeni"
+  }
+}

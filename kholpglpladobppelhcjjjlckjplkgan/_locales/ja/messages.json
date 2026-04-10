@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "Roblox 地域を選択してラグを減らし、Roblox 接続を改善し、よりスムーズな Roblox ゲームプレイをお楽しみください。"
+  },
+  "name": {
+    "message": "RoRegion – ラグ、Ping削減＆FPS向上: Roblox 地域選択ツール"
+  },
+  "sidebarBadgeNew": {
+    "message": "新着"
+  }
+}

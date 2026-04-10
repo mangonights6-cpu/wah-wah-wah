@@ -1,0 +1,69 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+  "name": "__MSG_name__",
+  "version": "14",
+  "description": "__MSG_description__",
+  "short_name": "RoRegion",
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": ["regionSelector.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    },
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": ["catalogInject.js", "passInject.js", "checkInject.js", "locale.js"]
+    },
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": ["side.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.roblox.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "json/rules.json"
+      },
+      {
+        "id": "ruleset_2",
+        "enabled": false,
+        "path": "json/regionRules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "regionSelector.js",
+        "json/regionList.json",
+        "json/countries.json",
+        "icons/*.png",
+        "_locales/*/*.json"
+      ],
+      "matches": ["*://*.roblox.com/*"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
